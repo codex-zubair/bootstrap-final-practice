@@ -1,0 +1,20 @@
+/* * Rem depend on top root html or boday */
+
+
+html
+{
+    font-size: 10px;
+}
+
+
+
+
+p
+{
+   
+    color: red;
+
+    font-size: 6rem;
+}
+
+/* * Rem depend on top root html or boday */
