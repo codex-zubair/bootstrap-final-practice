@@ -4,6 +4,7 @@
 html
 {
     font-size: 10px;
+   
 }
 
 
@@ -12,9 +13,116 @@ html
 p
 {
    
-    color: red;
+    color: rgb(0, 84, 252);
 
-    font-size: 6rem;
+    font-size: 3rem;
+    
 }
 
 /* * Rem depend on top root html or boday */
+
+
+
+
+/* *body section */
+ body
+ {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+/* *body section */
+
+
+
+
+
+/* * Experiment for Main section rem root */
+main p
+{
+    font-size: 100px;
+}
+
+
+main p
+{
+    font-size: 5rem;
+    color: aqua;
+}
+
+/* * Experiment for Main section rem root */
+
+
+
+
+/* * we can use Em use box with box pixel size */
+
+
+
+/** Root elements */
+section
+{
+    background-color: aquamarine;
+    height: 80%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+
+    /* Declared font size or anything size in root */
+    font-size: 2vw;
+
+}
+/** Root elements */
+
+
+
+/** Child Element For Root Element it will be size with parent font-size */
+section p
+{
+  font-size: 1em;
+}
+
+
+
+
+/* * we can use Em use box with box pixel size */
+
+
+
+
+
+
+
+/* *em use for now fox */
+
+.card
+{
+    background-color: red;
+    width: 80vw;
+    font-size: 2vw;
+
+}
+
+
+.card h5
+{
+    font-size: 2.5em;
+}
+
+
+.card p
+{
+    font-size: 2em;
+}
+
+.card a
+{
+    font-size: 1.5em;
+}
+
+
+
+
+
+/* *em use for now fox */
+
